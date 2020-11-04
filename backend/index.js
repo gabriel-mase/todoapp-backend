@@ -10,4 +10,4 @@ app.use(function(req, res, next){
 })
 app.use(express.json())
 app.use('/api', require('./routes/router'));
-app.listen(4000, () => console.log("litening on port 4000"));
+app.listen(4000, () => console.log("listening on port 4000"));
